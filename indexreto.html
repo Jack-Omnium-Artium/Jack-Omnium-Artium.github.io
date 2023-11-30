@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto de floats</title>
+    <!-- Crea una disposición de dos columnas usando floats en CSS y divs en HTML. 
+        La columna de la izquierda debe tener un ancho de 200px y la columna de la 
+        \derecha debe llenar el resto del ancho. 
+        Asegúrate de que la primera columna tenga un margen derecho de 20px y que 
+        el contenido fluya correctamente. -->
+        <style>
+            div {
+                height: 100px;
+            }
+            .izquierda {
+                width: 200px;
+	            float: left;
+	            background-color:black;
+    	        margin-right: 20px;
+            }
+            .derecha {
+                overflow: hidden;
+	            background-color: #ed1d1d;
+            }
+        </style>
+</head>
+<body>
+    <div class="derecha"></div>
+    <div class="izquierda"></div>
+</body>
+</html>
